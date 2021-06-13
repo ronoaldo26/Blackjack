@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+}
+.container{
+    display: block;
+    width: 1200px;
+    height: 600px;
+    margin: 10px auto;
+    background-image: radial-gradient(green, darkgreen, rgb(0, 64, 0));
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+}
+    .rules_table, .play_table, .bet_table
+    {
+        display: inline-block;
+        margin: 0px;
+        padding: 10px;
+        vertical-align: top;
+    }
+    .rules_table, .bet_table{
+        width: 270px;
+        height: 450px;
+        border: 3px solid rgb(110, 171, 53);
+        border-radius: 10px;
+        margin: 20px 10px;
+        background-color: rgb(7, 86, 45);
+    }
+        .rules_table h4{
+            margin-top: 0px;
+            margin-bottom: 5px;
+            color: white;
+        }
+        .rules_table ul{
+            padding-left: 15px;
+            padding-right: 10px;
+            margin: 0px;
+        }
+            .rules_table li{
+                font-size: 12px;
+                text-align: justify;
+                color: white;
+                padding-bottom: 4px;
+            }
+    .play_table{
+        width: 535px;
+        height: 500px;
+    }
+            .dealer_hand p, .player_hand p, .player_hand_split p, .split_first p, .split_second p{
+                display: inline-block;
+                background-color: rgb(7, 86, 45);
+                color: white;
+                border: 3px solid rgb(110, 171, 53);
+                border-radius: 5px;
+                width: 30px;
+                height: 25px;
+                text-align: center;
+                padding-top: 5px;
+                vertical-align: top;
+                margin-top: 0px;
+                margin-right: 10px;
+                text-shadow: 1px 1px black;
+            }
+    .dealer{
+        display: block;
+        height: 200px;
+        margin-top: 0px;
+    }
+        .dealer h2{
+            display: block;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+        .dealer_hand{
+            display: block;
+            width: 400px;
+            margin-left: 130px;
+        }
+    .game_message{
+        display: block;
+        height: 90px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+        h1{
+            margin: 0px;
+            font-size: 28px;
+        }
+        .play_again
+        {
+            display: block;
+            margin: 0px auto;
+        }
+            .play_again input[type=submit]{
+                margin-top: 10px;
+                width: 120px;
+                height: 40px;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: rgb(168, 246, 41);
+                color: rgb(60, 132, 0);
+                text-shadow: 0px 2px rgb(218, 251, 164);
+                font-size: 15px;
+                font-weight: 900;
+            }
+    .player{
+        display: block;
+        height: 200px;
+    }
+        .player_hand{
+            display: block;
+            width: 400px;
+            margin-left: 130px;
+        }
+            img{
+                width: 110px;
+                display: inline-block;
+                margin-right: -80px;
+            }
+        .player_hand_split{
+            display: inline-block;
+            width: 263px;
+            margin-left: 0px;
+        }
+            .player_hand_split img{
+                margin-right: -95px;
+            }
+        .player h2{
+            display: block;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+    .reset_game{
+        border-bottom: 1px solid black;
+        display: block;
+        padding-top: 10px;
+        height: 60px;
+    }
+        .reset_game input[type=submit]{
+            width: 132px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: rgb(248, 44, 44);
+            color: rgb(100, 0, 0);
+            font-size: 15px;
+            font-weight: 900;
+            text-shadow: 0px 2px rgb(233, 180, 180);
+        }
+    .bet{
+        margin-top: 15px;
+        padding-left: 20px;
+        display: block;
+        height: 80px;
+    }
+        .bet p{
+            display: block;
+            margin: 0px;
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+        .bet h3{
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 10px;
+            color: yellow;
+            text-shadow: 2px 2px black;
+            width: 120px;
+        }
+        .change_bet{
+            display: inline-block;
+            width: auto;
+        }
+            .bet input[type=submit]{
+                display: inline-block;
+                width: 100px;
+                height: 40px;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: rgb(168, 246, 41);
+                color: rgb(60, 132, 0);
+                text-shadow: 0px 2px rgb(218, 251, 164);
+                font-size: 15px;
+                font-weight: 900;
+            }
+        .chips{
+            display: block;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            margin-top: 5px;
+        }
+            .chips h3{
+                display: block;
+                margin-top: 0px;
+                color: white;
+                text-shadow: 2px 2px black;
+            }
+            .chips input[type=submit]{
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+                border: 9px dashed whitesmoke;
+                color: white;
+                text-shadow: 1px 1px black;
+                font-weight: 900;
+                border-radius: 30px;
+                box-shadow: 3px 3px 5px black;
+            }
+            .one{
+                background-color: rgb(14,78,176);
+            }
+            .five{
+                background-color: rgb(175,13,13);
+            }
+            .ten{
+                background-color: rgb(59,205,17);
+            }
+            .fifty{
+                background-color: rgb(168,14,176);
+            }
+            .one_hundred{
+                background-color: rgb(68, 68, 68);
+            }
+            .five_hundred{
+                background-color: darkgoldenrod;
+            }
+    .game_table{
+        border-bottom: 30px solid rgb(62, 29, 11);
+        display: block;
+        height: 50px;
+        margin: -50px auto;
+        padding-top: 50px;
+        border-bottom-left-radius: 1000px;
+        border-bottom-right-radius: 1000px;
+    }
+        .start, .first_deal, .hit, .split_first, .split_second{
+            text-align: center;
+        }
+            .start input[type=submit], .first_deal input[type=submit], .hit input[type=submit], 
+            .split_first input[type=submit], .split_second input[type=submit]{
+                display: inline-block;
+                width: 100px;
+                height: 40px;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: rgb(168, 246, 41);
+                color: rgb(60, 132, 0);
+                text-shadow: 0px 2px rgb(218, 251, 164);
+                font-size: 15px;
+                font-weight: 900;
+            }
+            .split_first p, .split_second p{
+                width: 100px;
+                height: 28px;
+                font-size: 20px;
+            }
+            .split_first p{
+                margin-left: 20px;
+                margin-right: 200px;
+            }
+            .split_second p{
+                margin-left: 200px;
+                margin-right: 20px;
+            }
